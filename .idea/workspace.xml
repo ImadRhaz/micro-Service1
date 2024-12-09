@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5942e8b-39f4-4136-9228-961d8cf65c96" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/account-service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/bank-config-support-repo/account-service-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/account-service-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/bank-config-support-repo/account-service-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/account-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/bank-config-support-repo/account-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/bank-config-support-repo/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/customer-service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/bank-config-support-repo/customer-service-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/customer-service-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/bank-config-support-repo/customer-service-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/customer-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/bank-config-support-repo/customer-service.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geteway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/geteway-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,26 +27,27 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ImadRhaz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ImadRhaz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:ImadRhaz/bank-account-microService.git",
-    "accountId": "d4972ee5-f839-4f6b-9735-e0eaa4abca11"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:ImadRhaz/micro-service.git&quot;,
+    &quot;accountId&quot;: &quot;d4972ee5-f839-4f6b-9735-e0eaa4abca11&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2pwrc3ekvq39E4YAYJnGj8lgKsa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,7 +66,7 @@
     "Spring Boot.CustomerServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
     "Spring Boot.GetewayServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pc/Desktop/micro/bank-account-app",
     "node.js.detected.package.eslint": "true",
@@ -81,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GetewayServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AccountServiceApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.rhaz.accountservice.AccountServiceApplication" />
@@ -134,7 +141,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733688054388</updated>
-      <workItem from="1733688055604" duration="1032000" />
+      <workItem from="1733688055604" duration="2572000" />
+      <workItem from="1733776748054" duration="8516000" />
     </task>
     <servers />
   </component>
